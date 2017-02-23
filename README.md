@@ -9,3 +9,4 @@ Jitta helper in chrome extension
 **Example**
 
 ![Example](img/ex1.png)
+![Example](img/ex2.png)
