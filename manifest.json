@@ -3,7 +3,7 @@
   "name": "Chanta",
   "short_name": "chanta",
   "description": "Jitta helper in chrome extension",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
@@ -14,11 +14,14 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.jitta.com/*"
+        "https://www.jitta.com/portfolio/*"
       ],
       "js": [
         "lib/jquery-3.1.1.min.js",
-        "script.js"
+        "portfolio.js"
+      ],
+      "css": [
+        "portfolio.css"
       ]
     }
   ]

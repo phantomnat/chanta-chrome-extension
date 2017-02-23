@@ -1,0 +1,7 @@
+td.neg-value, span.neg-value {
+  color: #fd726d;
+}
+
+td.pos-value, span.pos-value {
+  color: #00bd9c;
+}
